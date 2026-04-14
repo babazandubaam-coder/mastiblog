@@ -1,0 +1,91 @@
+/* बेसिक सेटिंग्स */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0ecff, #f0f7ff);
+    transition: 0.3s;
+    color: #333;
+}
+
+/* हेडर - निळी पट्टी */
+header {
+    background: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 { margin: 0; font-size: 28px; }
+header p { margin: 5px 0; font-size: 14px; opacity: 0.9; }
+
+/* डार्क मोड बटन */
+#dark-mode-btn {
+    background: #ffde59;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* मेन कंटेनर */
+.container {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box-left, .box-middle, .box-right {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.box-left { width: 25%; }
+.box-middle { width: 35%; text-align: center; }
+.box-right { width: 40%; line-height: 1.6; }
+
+.box-middle img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.topic {
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #f0f4f8;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.topic:hover { background: #007bff; color: white; }
+
+/* --- डार्क मोड स्टाईल्स --- */
+body.dark-mode {
+    background: #121212 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .box-left, 
+body.dark-mode .box-middle, 
+body.dark-mode .box-right {
+    background: #1e1e1e !important;
+    color: white !important;
+}
+
+body.dark-mode header {
+    background: linear-gradient(90deg, #000, #333) !important;
+}
+
+body.dark-mode .topic {
+    background: #2d2d2d !important;
+    color: white !important;
+}
+
+footer { text-align: center; padding: 20px; font-size: 14px; }
