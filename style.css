@@ -1,13 +1,13 @@
 /* १. बेसिक सेटिंग्स */
+/* Pattern स्टाईल */
 body {
-    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    background-image: radial-gradient(#d0dae5 1px, transparent 1px);
+    background-size: 20px 20px;
     margin: 0;
-    padding: 0;
-    /* निळा आणि राखाडी रंगाचं सुंदर मिश्रण */
-    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: Arial, sans-serif;
     min-height: 100vh;
-}
-/* हेडर अधिक स्टायलिश करण्यासाठी */
+}/* हेडर अधिक स्टायलिश करण्यासाठी */
 header {
     background: #004aad;
     background: linear-gradient(to right, #004aad, #0066ff);
