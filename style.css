@@ -157,3 +157,14 @@ div[onclick]:hover {
     transform: translateX(10px);         /* थोडं उजवीकडे सरकण्यासाठी */
     box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
 }
+/* मधल्या इमेजसाठी जबरदस्त hover इफेक्ट */
+.box img {
+    transition: transform 0.5s ease, box-shadow 0.5s ease !important; /* इफेक्ट हळुवार होण्यासाठी */
+    cursor: pointer;
+}
+
+.box img:hover {
+    transform: scale(1.05) !important; /* इमेज ५% झूम होईल */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3) !important; /* फोटोच्या खाली सावली येईल */
+    border: 2px solid #004aad; /* बॉर्डरचा रंग डार्क निळा होईल */
+}
