@@ -143,16 +143,17 @@ footer {
     font-size: 14px;
     color: #666;
 }
-/* विषयांच्या कॉलमवर पॉईंटर नेल्यावर डार्क निळा रंग येण्यासाठी */
-.box div[onclick] {
-    transition: all 0.3s ease;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-.box div[onclick]:hover {
-    background-color: #004aad !important; /* गडद निळा बॅकग्राउंड */
-    color: white !important; /* पांढरी अक्षरे */
-    padding-left: 20px !important; /* थोडं पुढे सरकल्यासारखं वाटेल */
+/* विषयांच्या कॉलमवर पॉईंटर नेल्यावर परफेक्ट डार्क निळा रंग */
+div[onclick] {
     cursor: pointer;
+    transition: 0.3s !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    margin: 5px 0 !important;
+}
+div[onclick]:hover {
+    background-color: #004aad !important; /* तुमचा मूळ डार्क निळा रंग */
+    color: #ffffff !important;           /* पांढरी अक्षरे */
+    transform: translateX(10px);         /* थोडं उजवीकडे सरकण्यासाठी */
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
 }
