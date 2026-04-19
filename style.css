@@ -9,14 +9,17 @@ body {
 }
 /* हेडर अधिक स्टायलिश करण्यासाठी */
 header {
-    background: #004aad; /* तुमचा मूळ निळा रंग */
-    background: linear-gradient(to right, #004aad, #0066ff); /* निळ्या रंगाची छटा */
+    background: #004aad;
+    background: linear-gradient(to right, #004aad, #0066ff);
     color: white;
-    padding: 30px 20px;
+    padding: 15px 30px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex; /* हे महत्त्वाचे आहे */
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
 }
-
 /* डार्क मोड बटन अधिक सुंदर करण्यासाठी */
 #dark-mode-btn {
     background-color: #ffcc00; /* पिवळसर छटा जेणेकरून ते उठून दिसेल */
