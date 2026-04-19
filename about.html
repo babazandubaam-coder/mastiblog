@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Marathi Blog - होम</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ai-marathi-blog</h1>
+    <p>Artificial Intelligence बद्दल संपूर्ण माहिती</p>
+
+    <nav style="margin-top: 15px;">
+        <a href="index.html" style="color:white; margin: 0 15px; text-decoration:none; font-weight:bold;">होम</a>
+        <a href="about.html" style="color:white; margin: 0 15px; text-decoration:none; font-weight:bold;">आमच्याबद्दल</a>
+        <a href="contact.html" style="color:white; margin: 0 15px; text-decoration:none; font-weight:bold;">संपर्क</a>
+    </nav>
+
+    <button id="dark-mode-btn" onclick="toggleDarkMode()">🌙 डार्क मोड</button>
+</header>
+
+<div class="container">
+    <div class="box box-left">
+        <div class="topic" onclick="showContent('ai')">AI म्हणजे काय?</div>
+        <div class="topic" onclick="showContent('tools')">AI Tools 2026</div>
+        <div class="topic" onclick="showContent('future')">AI भविष्य</div>
+    </div>
+
+    <div class="box box-middle">
+        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI Image">
+    </div>
+
+    <div class="box box-right" id="main-content">
+        <p>👈 विषयावर क्लिक करा माहिती पाहण्यासाठी</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 ai-marathi-blog</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
