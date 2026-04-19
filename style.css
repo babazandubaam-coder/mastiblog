@@ -53,9 +53,9 @@ header p { margin: 5px 0; font-size: 14px; opacity: 0.9; }
     background: white;
     padding: 25px;
     /* कोपरे थोडे गोल करण्यासाठी */
-    border-radius: 20px; 
-    /* सुंदर आणि हलकी सावली */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; 
+    /* सुंदर आणि हलकी सावली (Shadow) */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
