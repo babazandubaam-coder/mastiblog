@@ -1,12 +1,11 @@
 /* १. बेसिक सेटिंग्स */
-/* Pattern स्टाईल */
+/* Gradation स्टाईल */
 body {
-    background-color: #f0f4f8;
-    background-image: radial-gradient(#d0dae5 1px, transparent 1px);
-    background-size: 20px 20px;
+    background: linear-gradient(135deg, #f0f4f8, #ffffff);
     margin: 0;
     font-family: Arial, sans-serif;
     min-height: 100vh;
+    
 }/* हेडर अधिक स्टायलिश करण्यासाठी */
 header {
     background: #004aad;
