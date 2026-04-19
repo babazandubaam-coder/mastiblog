@@ -52,12 +52,12 @@ header p { margin: 5px 0; font-size: 14px; opacity: 0.9; }
 
 .box {
     background: white;
-    padding: 20px;
+    padding: 25px;
     /* कोपरे थोडे गोल करण्यासाठी */
-    border-radius: 15px; 
-    /* ही ओळ बॉक्सला सुंदर सावली देईल */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
-    text-align: left;
+    border-radius: 20px; 
+    /* सुंदर आणि हलकी सावली */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .box-left { width: 25%; }
