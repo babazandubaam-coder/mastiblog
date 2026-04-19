@@ -143,3 +143,14 @@ footer {
     font-size: 14px;
     color: #666;
 }
+/* विषयांच्या कॉलमवर पॉईंटर नेल्यावर रंग बदलण्यासाठी */
+.box div[onclick] {
+    transition: all 0.3s ease; /* रंग हळुवार बदलण्यासाठी */
+}
+
+.box div[onclick]:hover {
+    background-color: #e0eafc !important; /* फिका निळा रंग */
+    color: #004aad !important; /* गडद निळा अक्षरांचा रंग */
+    padding-left: 20px !important; /* थोडं पुढे सरकल्यासारखं वाटेल */
+    border-radius: 5px;
+}
