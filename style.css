@@ -1,10 +1,17 @@
 /* १. बेसिक सेटिंग्स */
-/* Gradation स्टाईल */
 body {
-    background: linear-gradient(135deg, #f0f4f8, #ffffff);
+    /* हा कोड बॅकग्राउंडला निळा आणि चंदेरी रंगाचं मिश्रण देईल */
+    background: #e0eafc !important; 
+    background: linear-gradient(to right, #cfdef3, #e0eafc) !important;
+    background-attachment: fixed !important;
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
     min-height: 100vh;
+}
+
+.container {
+    background: transparent !important; /* कंटेनरचा पांढरा रंग काढून टाकला */
+}
     
 }/* हेडर अधिक स्टायलिश करण्यासाठी */
 header {
