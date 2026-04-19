@@ -9,19 +9,25 @@
 </head>
 <body>
 
-<header>
-    <h1>ai-marathi-blog</h1>
-    <p>Artificial Intelligence बद्दल संपूर्ण माहिती</p>
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: linear-gradient(to right, #004aad, #0066ff); color: white;">
+    
+    <div style="flex: 1;"></div> 
 
-    <nav style="margin-top: 15px;">
-        <a href="index.html" style="color:white; margin: 0 15px; text-decoration:none; font-weight:bold;">होम</a>
-        <a href="about.html" style="color:white; margin: 0 15px; text-decoration:none; font-weight:bold;">आमच्याबद्दल</a>
-        <a href="contact.html" style="color:white; margin: 0 15px; text-decoration:none; font-weight:bold;">संपर्क</a>
-    </nav>
+    <div style="flex: 2; text-align: center;">
+        <h1 style="margin: 0; font-size: 26px;">ai-marathi-blog</h1>
+        <p style="margin: 5px 0; font-size: 14px; opacity: 0.9;">Artificial Intelligence बद्दल संपूर्ण माहिती</p>
+        <nav style="margin-top: 15px;">
+            <a href="index.html" style="color:white; margin: 0 10px; text-decoration:none; font-weight:bold;">होम</a>
+            <a href="about.html" style="color:white; margin: 0 10px; text-decoration:none; font-weight:bold;">आमच्याबद्दल</a>
+            <a href="contact.html" style="color:white; margin: 0 10px; text-decoration:none; font-weight:bold;">संपर्क</a>
+        </nav>
+    </div>
 
-    <button id="dark-mode-btn" onclick="toggleDarkMode()">🌙 डार्क मोड</button>
+    <div style="flex: 1; text-align: right;">
+        <button id="dark-mode-btn" onclick="toggleDarkMode()" style="background:#ffcc00; color:#333; border:none; padding:8px 18px; border-radius:20px; cursor:pointer; font-weight:bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🌙 डार्क मोड</button>
+    </div>
+
 </header>
-
 <div class="container">
     <div class="box box-left">
         <div class="topic" onclick="showContent('ai')">AI म्हणजे काय?</div>
