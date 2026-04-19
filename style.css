@@ -3,8 +3,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    /* खालील ओळ नवीन आहे, यामुळे बॅकग्राउंड सुंदर दिसेल */
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /* निळा आणि पांढरट रंगाचे सुंदर मिश्रण */
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
     min-height: 100vh;
     color: #333;
 }
