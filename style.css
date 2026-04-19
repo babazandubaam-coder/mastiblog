@@ -1,12 +1,13 @@
 /* १. बेसिक सेटिंग्स */
 body {
-    margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #e0ecff, #f0f7ff);
-    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    /* खालील ओळ नवीन आहे, यामुळे बॅकग्राउंड सुंदर दिसेल */
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
     color: #333;
 }
-
 /* २. हेडर - निळी पट्टी (बटनसाठी position relative महत्वाचे) */
 header {
     background: #004aad;
